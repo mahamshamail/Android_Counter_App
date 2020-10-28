@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="_0">0</string>
+    <string name="increment">Increment</string>
+    <string name="decrement">Decrement</string>
+    <string name="android_counter_app">Android Counter App</string>
+</resources>

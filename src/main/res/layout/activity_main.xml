@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/showdescriptioncontenttitle"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_centerHorizontal="true"
+    tools:ignore="MissingConstraints"
+    tools:context="com.example.couterapp.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/android_counter_app"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:text="@string/_0"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:background="@android:color/darker_gray"
+         />
+
+    <Button
+        android:id="@+id/incrementButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="incrementButtonPressed"
+        android:padding="10dp"
+        android:text="@string/increment"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/decrementButton"
+        android:layout_width="200dp"
+        android:padding="10dp"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="decrementButtonPressed"
+        android:text="@string/decrement"
+        android:typeface="monospace"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
