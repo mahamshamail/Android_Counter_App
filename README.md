@@ -6,4 +6,4 @@ This app includes
 3. Text View that gets updated when the buttons are pressed
 4. Built using a simple Linear Layout
 
-![alt text](/CounterAppImage.png | width=100)
+![alt text](/CounterAppImage.png =250x250 )
