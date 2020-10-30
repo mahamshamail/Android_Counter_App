@@ -5,5 +5,5 @@ This app includes
 2. A decrement button
 3. Text View that gets updated when the buttons are pressed
 4. Built using a simple Linear Layout
-
-![](/CounterAppImage.png =250x250 )
+<img src="CounterAppImage.png" width="100" height="300">
+![](/CounterAppImage.png )
