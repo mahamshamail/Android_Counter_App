@@ -12,9 +12,9 @@ This app includes
 
 
 #### To Run This App:
-* Have Java installed
-* Install Android Studio : https://developer.android.com/studio/
-* Download an emulator or use your android device to trun this app
+* Have [Java](https://www.java.com/en/) installed
+* Install [Android Studio](https://developer.android.com/studio/)
+* Follow [this](https://developer.android.com/studio/run/emulator) guide to download an emulator or use your android device to run this application
 * Create an Android project or import this file
 
 A great resource to follow along when building your first android app is the [android developer documentation](https://developer.android.com/training/basics/firstapp). 
